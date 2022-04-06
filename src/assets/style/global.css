@@ -1,0 +1,47 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.App{
+    background-color: #f1f2f6;
+    height: 100vh;
+}
+.MuiTabs-root{
+    background-color: #ecf0f1 !important;
+}
+.under_line{
+    border-bottom: 2px solid #bdc3c7 !important;
+}
+.setClr{
+    background-color: lightblue;
+}
+.TBL{
+    font-size: 1.1rem !important;
+}
+.TBLR{
+    font-size: 1rem !important;
+}
+.hover_:hover{
+    background-color: #273c75;
+    color: white;
+    cursor: pointer;
+}
+
+
+.box__dragndrop,
+.box__uploading,
+.box__success,
+.box__error {
+  display: none;
+}
+.slectiveBox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+@media (max-width: 576px) { 
+    .slectiveBox{
+        flex-direction: column;
+    }
+ }
